@@ -1,0 +1,138 @@
+.calculadora {
+  max-width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #1e1e2f;
+  color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.calculadora h2 {
+  margin-bottom: 20px;
+  font-size: 22px;
+  color: #ffcb05;
+}
+
+.inputs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.inputs input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.botoes {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+.add { background: #4caf50; }
+.sub { background: #f44336; }
+.mult { background: #2196f3; }
+.div { background: #ff9800; }
+
+.resultado {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.resultado span {
+  color: #4cafef;
+  font-weight: bold;
+}
+.calculadora {
+  max-width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #1e1e2f;
+  color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.calculadora h2 {
+  margin-bottom: 20px;
+  font-size: 22px;
+  color: #ffcb05;
+}
+
+.inputs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.inputs input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.botoes {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+.add { background: #4caf50; }
+.sub { background: #f44336; }
+.mult { background: #2196f3; }
+.div { background: #ff9800; }
+
+.resultado {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.resultado span {
+  color: #4cafef;
+  font-weight: bold;
+}
